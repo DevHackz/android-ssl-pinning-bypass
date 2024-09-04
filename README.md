@@ -103,8 +103,6 @@ Another method to bypass SSL pinning is to install a custom certificate authorit
 - **Frida Not Hooking**: Ensure Frida server is running correctly on your Android device and that your device is properly connected to your computer.
 - **Xposed Module Not Working**: Verify that the module is compatible with the version of Android and Xposed you are using.
 
-Here’s a GitHub `README.md` page specifically for bypassing SSL pinning in Android applications using the Objection tool:
-
 ---
 
 # Android SSL Pinning Bypass Using Objection
@@ -234,11 +232,6 @@ With SSL pinning disabled, you can now use a proxy tool (e.g., Burp Suite) to in
   - Some apps may use more advanced SSL pinning techniques that Objection cannot bypass by default. In such cases, you may need to write custom Frida scripts.
 
 ---
-
-This README is designed to provide a clear and concise guide for using Objection to bypass SSL pinning in Android applications, tailored specifically for penetration testers and security researchers. Adjust the content as needed to fit the specific details or tools you are using.
-
-
-
 ## Contributing
 
 Contributions are welcome! If you have improvements or additional methods to bypass SSL pinning, feel free to fork this repository, make your changes, and submit a pull request.
